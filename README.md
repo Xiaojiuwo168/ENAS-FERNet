@@ -49,7 +49,7 @@ is_running = 0
 
 If you have any questions, please feel free to raise "issues" for discussion.
 
-## Citing GA-FER
+## Citing ENAS-FERNet
 
 It would be greatly appreciated if the following paper can be cited when the code has helped your research.
 
