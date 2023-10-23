@@ -1,6 +1,5 @@
 # ENAS-FERNet
 
-
 Code implementation of paper "Evolutionary neural architecture search for facial expression recognition " published on TETCI 2023.
 
 ## Requirements
