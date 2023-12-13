@@ -22,9 +22,9 @@ class RafDataSet(data.Dataset):
 
         NAME_COLUMN = 0
         LABEL_COLUMN = 1
-        df = pd.read_csv(os.path.join(self.raf_path, 'EmoLabel/new_20_noise.txt'), sep=' ', header=None)
+        #df = pd.read_csv(os.path.join(self.raf_path, 'EmoLabel/new_20_noise.txt'), sep=' ', header=None)
         #df = pd.read_csv(os.path.join(self.raf_path, 'EmoLabel/new_10_noise.txt'), sep=' ', header=None)
-        #df = pd.read_csv(os.path.join(self.raf_path, 'EmoLabel/list_patition_label.txt'), sep=' ', header=None)
+        df = pd.read_csv(os.path.join(self.raf_path, 'EmoLabel/list_patition_label.txt'), sep=' ', header=None)
         if phase == 'train':
             dataset = df[df[NAME_COLUMN].str.startswith('train')]
         else:
